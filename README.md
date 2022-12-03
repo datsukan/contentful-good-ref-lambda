@@ -91,9 +91,12 @@ Web上で管理コンソールから [ Lambda > 関数 > contentful-good-ref > �
 
 APIを作成で`REST API`を選択して構築する。  
 API名は`contentful-good`とする。（任意）  
+
 リソースのアクションで`リソースの作成`を選択して`{article_id}`を作成する。  
+
 `{article_id}`に対してアクションで`メソッドの作成`を選択してGETリクエストを選択する。  
 統合タイプは`Lambda 関数`、Lambda プロキシ統合の使用はON、Lambda関数は`contentful-good-ref`（任意で変更した場合は合わせて入力）を設定して保存する。  
+
 アクションで`APIのデプロイ`を選択して、ステージの`URLの呼び出し`に記載されているURLを控えておく。
 
 #### 5. WebAPIへリクエストを行う
